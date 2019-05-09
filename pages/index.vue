@@ -1,20 +1,13 @@
 <template>
-  <v-layout column align-center>
+  <v-layout>
     <v-flex text-xs-center><br><br><br><br><br><br><br><br><br>
       <div class="text-xs-center" id="home">
         <parallax :fixed="false">  
         <img v-parallax="0.6" src="/Picture4.png" height="200px" alt="Vuetify.js" class="mb-5" />
         </parallax>
       </div><br>
-        <br>
-          <br>
-            <br>
-              <br>
-                <br>
-                  <br>
-                    <br>
-                      <br>
-      <v-layout>
+
+      <v-layout mt-5 pt-5 >
         <v-flex>  
           <v-card>
             <v-img src="/laptop.jpg" class="white--text" height="300px" width="100%" >
